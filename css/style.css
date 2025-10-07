@@ -1,0 +1,138 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+body {
+	font-family: "lato", sans-serif;
+	font-weight: 500;
+	line-height: 1.25;
+	color: #7e7f7c;
+}
+
+.header,
+.footer {
+	text-align: center;
+}
+
+.title {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 1.25;
+	text-align: center;
+	color: #2f302c;
+
+}
+
+.services {
+	max-width: 1180px;
+	margin: 0 auto;
+	padding: 82px 0;
+}
+
+.services__title {
+	margin-bottom: 70px;
+}
+
+.services__caption {
+	text-transform: uppercase;
+	margin-bottom: 24px;
+	font-weight: 700;
+}
+
+.services__items {
+	margin: 0 -34px 68px;
+	font-size: 0;
+
+}
+
+.services__item {
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+	width: 33.333%;
+	padding: 0 34px;
+	vertical-align: top;
+}
+
+.services__img {
+	margin-bottom: 24px;
+}
+
+/* ALT */
+.prices {
+	max-width: 1200px;
+	margin: 0 auto 100px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+}
+
+.prices__title {
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #ba936f;
+	margin-bottom: 27px;
+}
+
+.prices__text {
+	max-width: 500px;
+	font-size: 17px;
+	color: #343434;
+	margin-bottom: 68px;
+}
+
+.prices__items {
+	margin: 0 -31px;
+	font-size: 0;
+}
+
+.prices__box {
+	display: inline-block;
+	padding: 0 31px;
+	width: 33.333%;
+}
+
+.prices-card {
+	min-height: 466px;
+	font-size: 17px;
+	background-color: rgba(253, 239, 230, 0.99);
+	border-radius: 33px;
+	padding: 60px 40px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.prices-card__title {
+	font-family: "Lora", sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	color: #ba936f;
+	text-transform: uppercase;
+	margin-bottom: 14px;
+}
+
+.prices-card__subtitle {
+	margin-bottom: 67px;
+	font-weight: 400;
+	font-size: 17px;
+	color: #888;
+}
+
+.prices-card__pay {
+	font-weight: 400;
+	font-size: 64px;
+	color: #343434;
+	margin-bottom: 84px;
+}
+
+.prices-card__batton {
+	font-weight: 500;
+	font-size: 19px;
+	text-transform: capitalize;
+	color: #fff;
+	background-color: #ba936f;
+	border-radius: 15px;
+	display: block;
+	padding: 13px 15px;
+}
